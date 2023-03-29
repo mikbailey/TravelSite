@@ -89,3 +89,90 @@ li a {
     height: 20rem;
     padding: 3rem;
 }
+
+.rec-section {
+    padding: 3rem;
+    padding-bottom: 4rem;
+}
+
+.rec-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #335576;
+}
+
+.rec-image-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.rec-image {
+    width: 16rem;
+    height: 28rem;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2)
+    
+}
+
+.rec-hawaii {
+    position: absolute;
+    bottom: 3px;
+    left: 27rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#FEFAF5
+}
+
+.rec-iceland {
+    position: absolute;
+    bottom: 3px;
+    left: 44rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#FEFAF5
+}
+
+.rec-greece {
+    position: absolute;
+    bottom: 3px;
+    left: 62rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#FEFAF5
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FEFAF5;
+    gap: 5rem;
+    padding-bottom: 2rem;
+}
+
+.footer-title {
+    color: #335576;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-subtitle {
+    color: #DB7A4E;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #335576;
+}
+
+.footer-three {
+    margin-top: 3.45rem;
+}
+
+.footer-icons {
+    margin-top: 2.7rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
