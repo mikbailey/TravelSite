@@ -1,0 +1,176 @@
+.navbar{
+    display: flex;
+    background-color: white;
+ }
+ 
+ .navbar-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: small;
+    color: #335576;
+    padding-left: 2rem;
+ }
+ 
+ .navbar-home {
+     border-bottom: solid #DB7A4E;
+     padding-bottom: 1em;
+ }
+ 
+ .navbar-links {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: black;
+ }
+ 
+ a:link {
+     text-decoration: none;
+ }
+ 
+ a:visited {
+     text-decoration: none;
+ }
+ 
+ 
+ ul {
+     list-style-type: none;
+     text-align: center;
+     margin-top: 1rem;
+     padding: 0;
+     margin-left: 60rem;
+     display: block;
+ }
+   
+ li {
+     float: left;
+ }
+   
+ li a {
+     display: inline;
+     color: black;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+
+ body {
+    margin: 0%;
+ }
+
+ .destination-info {
+    padding-bottom: 9rem;
+ }
+
+ .destination-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    color: white;
+    padding-left: 5rem;
+    padding-top: 3rem;
+ }
+
+ .destination-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 7rem;
+    
+ }
+
+ .destination-info-card {
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+    border-radius: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+ }
+
+ .info-date {
+    margin-bottom: 4rem;
+    border-bottom: 3px solid black;
+    text-align: center;
+ }
+
+ .schedule-info {
+    background-color: #FEFAF5;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight: 300;
+    font-size: medium;
+ }
+
+ .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FEFAF5;
+    gap: 5rem;
+    padding-bottom: 2rem;
+}
+
+.footer-title {
+    color: #335576;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-subtitle {
+    color: #DB7A4E;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #335576;
+}
+
+.footer-three {
+    margin-top: 3.45rem;
+}
+
+.footer-icons {
+    margin-top: 2.7rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.hawaii-background {
+    background-image: url(../Assets/Images/hawaii.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+}
+
+.iceland-background {
+    background-image: url(../Assets/Images/iceland.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+}
+
+.greece-background {
+    background-image: url(../Assets/Images/greece.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+}
+
+.greece {
+    border-bottom: solid #DB7A4E;
+    padding-bottom: 1em;
+}
+
+.hawaii {
+    border-bottom: solid #DB7A4E;
+    padding-bottom: 1em;
+}
+
+.iceland {
+    border-bottom: solid #DB7A4E;
+    padding-bottom: 1em;
+}
